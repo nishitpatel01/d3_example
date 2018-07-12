@@ -554,7 +554,7 @@ d3.csv(BUBBLE_PARAMETERS.data_file, function (error, data) {
 
     // Display bubble chart inside the #vis div.
     myBubbleChart('#vis', data);
-
+alert(data);
     // Start the visualization with the first button
     myBubbleChart.switchMode(BUBBLE_PARAMETERS.modes[0].button_id)
 });
