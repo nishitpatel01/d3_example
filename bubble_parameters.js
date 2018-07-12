@@ -7,8 +7,8 @@ var BUBBLE_PARAMETERS = {
     "height": 600,
     "force_strength": 0.03,
     "force_type": "charge",
-    "radius_field": "Net Value",
-    "numeric_fields": ["Asset Value", "Debt", "Net Value", "Change vs 2015", "Stake"],
+    "radius_field": "Debt",
+    "numeric_fields": ["Asset Value", "Debt", "Net Value", "Change vs 2015"],
     "fill_color": {
         "data_field": "Change",
         "color_groups": {
